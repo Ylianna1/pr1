@@ -1,0 +1,77 @@
+header {
+    font-size: 50px;
+      background: rgb(44, 93, 172);
+      color: white;
+      width: 100%;
+      margin-top: -20px;
+      float: left;
+      font-size: 40px;
+  }
+.logo{
+    width: 40px;
+    height: 40px;
+    margin-top: 22px;
+    margin-left: 22px;
+}
+body {
+    overflow-x: hidden;
+    height: 485px;
+    max-width: 100%;
+    background: -webkit-linear-gradient(top, rgb(62, 116, 204),#e3ece8);    
+}
+.photo {
+    font-size: 170px;
+    margin: 50px;
+    width: 150px;
+    height: 40%;
+    background: rgb(232, 242, 241);
+    text-align: center;
+    font-weight: bolder;
+    float: left;
+}
+
+.fio {
+    float: left;
+    margin: 42px;
+    font-weight: bolder;
+    font-family: "Bree Serif";
+    font-size: 20px;
+}
+
+.aboutMe {
+    float: right;
+    padding-top: 20px;
+    padding-right: 55%;
+    margin: -50px;
+    font-family: "Aria";
+    font-size: 17px;
+}
+
+
+.tableArray {
+    float: right;
+    position: relative;
+    top: 50px;
+    left: -162px;
+    
+    font-family: "Aria";
+    font-size: 14px;
+    border-radius: 10px;
+    border-spacing: 0;
+    text-align: center;
+    color: aliceblue;
+}
+    
+.tableArray th, td {
+    border-style: solid;
+    border-width: 0 1px 1px 0;
+    border-color: rgb(58, 23, 197);
+}
+.tableArray th:first-child, td:first-child {
+    text-align: left;
+}
+
+.tableArray td {
+    padding: 10px 20px;
+    background: #5497d1;
+}
